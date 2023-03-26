@@ -1,0 +1,129 @@
+.background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(150, 150, 150, 0.8);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 700px;
+    height: 650px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    user-select: none;
+}
+
+.input-group {
+    height: 8%;
+    margin-bottom: 10px;
+}
+
+.input-label {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.input-field {
+    width: 50%;
+    height: 60%;
+    align-self: center;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px !important;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.footer {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.footer-button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+.cancel-button {
+    background-color: rgb(250, 74, 74);
+    margin-right: 20px;
+}
+
+.cancel-button:hover {
+    background-color: rgb(252, 94, 94);
+    margin-right: 20px;
+}
+
+.add-dish-button {
+    background-color: rgb(94, 228, 67);
+}
+
+.add-dish-button:hover {
+    background-color: rgb(131, 250, 107);
+}
+
+.ingredients {
+    height: auto;
+}
+
+.ingredients .info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients .add-ingredient-button {
+    width: 90px;
+    height: 55px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgb(94, 228, 67);
+    align-self: center;
+    margin-top: 10px;
+}
+
+.ingredients .add-ingredient-button:hover {
+    background-color: rgb(131, 250, 107);
+}
+
+.ingredients .add-ingredient-button:disabled {
+    background-color: rgb(119, 119, 119);
+}
+
+.ingredient-group.quantity {
+    width: 15%;
+    margin-right: 20px;
+}
+
+.ingredient-group.name {
+    width: 40%;
+}
+
+.ingredients .input-label {
+    align-items: start;
+    margin-top: 10px;
+}
+
+.ingredients .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+}
